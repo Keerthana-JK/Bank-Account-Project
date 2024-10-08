@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\bankaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\bankaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\accountlistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\accountlistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\accountlistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\accountlistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\accountviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\accountviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\editaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\editaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\newaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\newaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemwpfapp\\banksystemwpfapp\\newaccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\newaccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\Account.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\Account.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\Account.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:44:59.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\DashboardWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\DashboardWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\DashboardWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\DashboardWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-07T10:07:37.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountListWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AccountListWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\AccountListWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AccountListWindow.xaml.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\AccountListWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAnwCIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:02:15.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountListWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AccountListWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\AccountListWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AccountListWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\AccountListWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-07T10:01:55.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountViewWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AccountViewWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\AccountViewWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AccountViewWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\AccountViewWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-07T10:01:53.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BankAccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\BankAccountViewModel.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\BankAccountViewModel.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\BankAccountViewModel.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\BankAccountViewModel.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAIwNkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:48:05.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AppConfig.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\AppConfig.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\AppConfig.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:50:54.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditAccountWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\EditAccountWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\EditAccountWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\EditAccountWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\EditAccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-07T09:58:22.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewAccountWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\NewAccountWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\NewAccountWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\NewAccountWindow.xaml.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\NewAccountWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:47:12.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewAccountWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\NewAccountWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\NewAccountWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemWpfApp\\BankSystemWpfApp\\NewAccountWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\NewAccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-07T09:46:57.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+2024-10-07 12:01:24,419 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 12:03:52,905 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 12:03:56,653 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 12:04:00,642 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 12:07:43,259 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 12:07:45,972 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 12:08:36,006 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is marked as deleted successfully
+2024-10-07 12:08:44,975 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 13:07:52,272 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 13:07:56,974 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is marked as deleted successfully
+2024-10-07 14:58:26,972 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 14:58:34,986 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 14:58:40,575 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is marked as deleted successfully
+2024-10-07 14:58:58,933 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 15:14:01,556 [1] ERROR BankSystemWpfApp.Logger - Account Not Found , Please input valid account number
+2024-10-07 15:24:50,385 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 123 has been created successfully
+2024-10-07 15:27:36,667 [1] INFO  BankSystemWpfApp.Logger - Account 123 is marked as deleted successfully
+2024-10-07 15:27:49,661 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:28:00,308 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:28:02,425 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:28:06,449 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:33:35,384 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 15:33:50,374 [1] ERROR BankSystemWpfApp.Logger - Insufficient balance
+2024-10-07 21:38:30,089 [1] INFO  BankSystemWpfApp.Logger - Deposited 1000 rupees Successfully to account 1234
+2024-10-07 21:38:48,163 [1] INFO  BankSystemWpfApp.Logger - Withdrawed 280 rupees Successfully from account 1234
+2024-10-07 21:40:06,079 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 111 has been created successfully
+2024-10-07 21:42:40,186 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 21:42:58,892 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 21:44:08,089 [1] ERROR BankSystemWpfApp.Logger - Account Not Found , Please input valid account number
+2024-10-07 21:44:15,695 [1] INFO  BankSystemWpfApp.Logger - Deposited 23 rupees Successfully to account 1234
+2024-10-07 22:33:36,300 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 111 has been created successfully
+2024-10-07 22:34:44,589 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 111 has been created successfully
+2024-10-07 22:36:36,617 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 121 has been created successfully
+2024-10-07 22:36:46,400 [1] INFO  BankSystemWpfApp.Logger - Account 121 is marked as deleted successfully
+2024-10-07 22:36:50,461 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is marked as deleted successfully
+2024-10-07 22:44:03,822 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 121 has been created successfully
+2024-10-07 22:46:42,432 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 122 has been created successfully
+2024-10-07 22:48:46,997 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 123 has been created successfully
+2024-10-07 22:49:13,282 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 23 has been created successfully
+2024-10-07 22:51:13,432 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 12 has been created successfully
+2024-10-07 22:51:51,591 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 22:55:11,455 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 111 has been created successfully
+2024-10-07 22:59:01,293 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 111 has been created successfully
+2024-10-08 09:53:22,001 [1] ERROR BankSystemWpfApp.Logger - Value cannot be null.
+Parameter name: key
+2024-10-08 10:39:58,008 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 0 has been created successfully
+2024-10-08 10:47:44,291 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 0 has been created successfully
+2024-10-08 11:08:54,633 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 0 has been created successfully
+2024-10-08 11:17:59,753 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 123 has been created successfully
+2024-10-08 11:19:31,475 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 0 has been created successfully
+2024-10-08 14:03:50,548 [1] ERROR BankSystemWpfApp.Logger - Value cannot be null.
+Parameter name: key
+2024-10-08 14:04:29,393 [1] INFO  BankSystemWpfApp.Logger - Deposited 500 rupees Successfully to account 1234

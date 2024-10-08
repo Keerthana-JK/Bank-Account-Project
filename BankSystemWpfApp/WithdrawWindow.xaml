@@ -1,0 +1,18 @@
+﻿<Window x:Class="BankSystemWpfApp.WithdrawWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankSystemWpfApp" d:DataContext="{d:DesignInstance Type=local:WithdrawViewModel}"
+		mc:Ignorable="d"
+        Title="Withdraw Amount" Height="450" Width="800" Closing="Window_Closing">
+	<Grid>
+		<TextBlock x:Name="lblDepositAmount" HorizontalAlignment="Left" Height="48" Margin="166,220,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" Width="193" FontSize="18" FontFamily="Verdana"/>
+		<TextBox x:Name="txtDepositAmount" HorizontalAlignment="Left" Height="48" Margin="418,217,0,0" Text="{Binding Amount}" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" FontSize="18" FontFamily="Verdana"/>
+		<TextBlock TextAlignment="Center" HorizontalAlignment="Center" Height="67" Margin="0,10,0,0" TextWrapping="Wrap" Text="Withdraw Amount" VerticalAlignment="Top" Width="780" FontSize="36" FontFamily="Verdana" FontWeight="Bold"/>
+		<Button x:Name="btnWithdraw" Content="Withdraw" Background="CadetBlue" Foreground="White"  Command="{Binding WithdrawCommand}" HorizontalAlignment="Left" Height="57" Margin="418,328,0,0" VerticalAlignment="Top" Width="117" FontSize="18" FontFamily="Verdana"/>
+		<TextBlock x:Name="lblAccNumber" HorizontalAlignment="Left" Height="48" Margin="166,122,0,0" TextWrapping="Wrap" Text="Account Number" VerticalAlignment="Top" Width="193" FontSize="18" FontFamily="Verdana"/>
+		<TextBox x:Name="txtAccNumber" HorizontalAlignment="Left" Height="48" Text="{Binding AccNumber}" Margin="418,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" FontSize="18" FontFamily="Verdana"/>
+
+	</Grid>
+</Window>

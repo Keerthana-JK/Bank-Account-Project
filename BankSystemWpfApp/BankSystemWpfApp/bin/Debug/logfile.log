@@ -1,0 +1,23 @@
+2024-10-07 12:01:24,419 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 12:03:52,905 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 12:03:56,653 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 12:04:00,642 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 12:07:43,259 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 12:07:45,972 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 12:08:36,006 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is marked as deleted successfully
+2024-10-07 12:08:44,975 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 13:07:52,272 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 13:07:56,974 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is marked as deleted successfully
+2024-10-07 14:58:26,972 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is updated successfully
+2024-10-07 14:58:34,986 [1] INFO  BankSystemWpfApp.Logger - Account 1234 is marked as deleted successfully
+2024-10-07 14:58:40,575 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is marked as deleted successfully
+2024-10-07 14:58:58,933 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 15:14:01,556 [1] ERROR BankSystemWpfApp.Logger - Account Not Found , Please input valid account number
+2024-10-07 15:24:50,385 [1] INFO  BankSystemWpfApp.Logger - An account with acoount number 123 has been created successfully
+2024-10-07 15:27:36,667 [1] INFO  BankSystemWpfApp.Logger - Account 123 is marked as deleted successfully
+2024-10-07 15:27:49,661 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:28:00,308 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:28:02,425 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:28:06,449 [1] INFO  BankSystemWpfApp.Logger - Account 123 is updated successfully
+2024-10-07 15:33:35,384 [1] INFO  BankSystemWpfApp.Logger - Account 12345 is updated successfully
+2024-10-07 15:33:50,374 [1] ERROR BankSystemWpfApp.Logger - Insufficient balance
