@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemtransferwpfapp\\banksystemwpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|c:\\users\\2021454\\source\\repos\\banksystemtransferwpfapp\\banksystemwpfapp\\amounttransferwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\amounttransferwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\accountmemoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\accountmemoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\transferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\transferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\amounttransferwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\amounttransferwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\withdrawviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\withdrawviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\withdrawwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\withdrawwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\iaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\newaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\newaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\depositwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\depositwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\banksystemwpfapp\\bankaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BBBD3B-A743-4499-B042-A17A9476D5F6}|BankSystemWpfApp\\BankSystemWpfApp.csproj|solutionrelative:banksystemwpfapp\\bankaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +54,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AmountTransferWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\AmountTransferWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\AmountTransferWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\AmountTransferWindow.xaml.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\AmountTransferWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:59:58.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WithdrawViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\WithdrawViewModel.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\WithdrawViewModel.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\WithdrawViewModel.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\WithdrawViewModel.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwGAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:33:05.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransferViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\TransferViewModel.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\TransferViewModel.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\TransferViewModel.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\TransferViewModel.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowFYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:25:43.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountMemoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\AccountMemoryRepo.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\AccountMemoryRepo.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\AccountMemoryRepo.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\AccountMemoryRepo.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwPMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:33:39.059Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\App.xaml",
-              "RelativeDocumentMoniker": "BankSystemWpfApp\\App.xaml",
-              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\App.xaml",
-              "RelativeToolTip": "BankSystemWpfApp\\App.xaml",
+              "Title": "AmountTransferWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\AmountTransferWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\AmountTransferWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\AmountTransferWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\AmountTransferWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-08T16:40:58.591Z",
+              "WhenOpened": "2024-10-09T11:30:58.821Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WithdrawWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\WithdrawWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\WithdrawWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\WithdrawWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\WithdrawWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-09T11:59:18.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAccountRepo.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\IAccountRepo.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\IAccountRepo.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\IAccountRepo.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\IAccountRepo.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:43:32.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\Account.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\Account.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\Account.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\Account.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:13:28.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewAccountWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\NewAccountWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\NewAccountWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\NewAccountWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\NewAccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-09T11:26:22.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepositWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\DepositWindow.xaml",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\DepositWindow.xaml",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\DepositWindow.xaml",
+              "RelativeToolTip": "BankSystemWpfApp\\DepositWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-09T11:25:39.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BankAccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\BankAccountViewModel.cs",
+              "RelativeDocumentMoniker": "BankSystemWpfApp\\BankAccountViewModel.cs",
+              "ToolTip": "C:\\Users\\2021454\\source\\repos\\BankSystemTransferWpfApp\\BankSystemWpfApp\\BankAccountViewModel.cs",
+              "RelativeToolTip": "BankSystemWpfApp\\BankAccountViewModel.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwvzcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T11:20:37.923Z"
             }
           ]
         }

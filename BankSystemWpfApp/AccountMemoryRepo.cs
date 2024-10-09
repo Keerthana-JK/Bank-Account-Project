@@ -237,7 +237,18 @@ namespace BankSystemWpfApp
 			}
 
 		}
-
+		public void Transfer(int senderAccNo, int receiverAccNo, int amount)
+		{
+			try
+			{
+				Withdraw(senderAccNo, amount);
+				Deposit(receiverAccNo, amount);
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+		}
 		public void CalculateInterestAndUpdateBalance()
 		{
 			throw new NotImplementedException();

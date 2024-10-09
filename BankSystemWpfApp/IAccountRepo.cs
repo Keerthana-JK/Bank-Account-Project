@@ -46,6 +46,7 @@ namespace BankSystemWpfApp
 		/// Calculates the interest and updates the balance for all accounts.
 		/// </summary>
 		void CalculateInterestAndUpdateBalance();
+		void Transfer(int fromAcNo, int toAcNo, int Amount);
 
 		/// <summary>
 		/// Retrieves all accounts.

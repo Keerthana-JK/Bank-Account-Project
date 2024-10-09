@@ -101,7 +101,7 @@ namespace BankSystemWpfApp
 				Email = "",
 				Phone = "",
 				Address = "",
-				IsActive = false,
+				IsActive = true,
 				InterestPercentage = "0",
 				TransactionCount = 0,
 				LastTransactionDate = DateTime.Now,

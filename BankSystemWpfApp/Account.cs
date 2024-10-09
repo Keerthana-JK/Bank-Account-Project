@@ -12,7 +12,7 @@ namespace BankSystemWpfApp
 	/// <summary>
 	/// Represents a bank account.
 	/// </summary>
-	public class Account : INotifyPropertyChanged
+	public class Account 
 	{
 		/// <summary>
 		/// Gets or sets the account number.

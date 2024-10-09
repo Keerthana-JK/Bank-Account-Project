@@ -67,3 +67,4 @@ C:\Users\2021454\source\repos\BankSystemTransferWpfApp\BankSystemWpfApp\obj\Debu
 C:\Users\2021454\source\repos\BankSystemTransferWpfApp\BankSystemWpfApp\obj\Debug\BankSystemWpfApp.exe
 C:\Users\2021454\source\repos\BankSystemTransferWpfApp\BankSystemWpfApp\obj\Debug\BankSystemWpfApp.pdb
 C:\Users\2021454\source\repos\BankSystemTransferWpfApp\BankSystemWpfApp\obj\Debug\App.baml
+C:\Users\2021454\source\repos\BankSystemTransferWpfApp\BankSystemWpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
