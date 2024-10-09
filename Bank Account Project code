@@ -14,7 +14,7 @@ namespace BankSystemWpfApp
 	/// <summary>
 	/// Represents a bank account.
 	/// </summary>
-	public class Account : INotifyPropertyChanged
+	public class Account 
 	{
 		/// <summary>
 		/// Gets or sets the account number.
@@ -534,7 +534,18 @@ namespace BankSystemWpfApp
 			}
 
 		}
-
+		public void Transfer(int senderAccNo, int receiverAccNo, int amount)
+		{
+			try
+			{
+				Withdraw(senderAccNo, amount);
+				Deposit(receiverAccNo, amount);
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+		}
 		public void CalculateInterestAndUpdateBalance()
 		{
 			throw new NotImplementedException();
@@ -681,17 +692,26 @@ AmountTransferWindow.xaml
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:BankSystemWpfApp" d:DataContext="{d:DesignInstance Type=local:WithdrawViewModel}"
-		mc:Ignorable="d"
+       xmlns:local="clr-namespace:BankSystemWpfApp"
+        xmlns:vm="clr-namespace:BankSystemWpfApp"
+        d:DataContext="{d:DesignInstance Type=local:TransferViewModel}"
+        mc:Ignorable="d"
         Title="Amount Transfer Window" Height="450" Width="800" Closing="Window_Closing">
-	<Grid>
+
+	<Window.Resources>
+		<vm:TransferViewModel x:Key="TransferViewModel"/>
+	</Window.Resources>
+	<Window.DataContext>
+		<local:TransferViewModel />
+	</Window.DataContext>
+	<Grid DataContext="{StaticResource TransferViewModel}">
 		<TextBlock x:Name="lblSenderAccNo" HorizontalAlignment="Left" Text="Sender Acc No." Height="36" Margin="181,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="18" FontFamily="Verdana"/>
 		<TextBlock x:Name="lblReceiverAccNo" HorizontalAlignment="Left" Text="Receiver Acc No." Height="34" Margin="181,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="18" FontFamily="Verdana"/>
 		<Button x:Name="btnTransfer" Content="Transfer" Background="CadetBlue" Foreground="White" HorizontalAlignment="Left" Height="58" Margin="458,342,0,0" VerticalAlignment="Top" Width="116" FontSize="18" FontFamily="Verdana" Command="{Binding TransferCommand}"/>
-		<TextBox x:Name="txtSenderAccNo" Text="{Binding TransferViewModel.senderAccNo}" HorizontalAlignment="Left" Height="36" Margin="432,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" FontSize="18"/>
+		<TextBox x:Name="txtSenderAccNo" Text="{Binding senderAccNo, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Left" Height="36" Margin="432,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" FontSize="18"/>
 		<TextBox x:Name="txtReceiverAccNo" Text="{Binding receiverAccNo}" HorizontalAlignment="Left" Height="36" Margin="432,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" FontSize="18"/>
 		<TextBlock x:Name="lblAmount" HorizontalAlignment="Left" Text="Amount" Height="34" Margin="181,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="18" FontFamily="Verdana"/>
-		<TextBox x:Name="txtAmount" Text="{Binding Amount}" HorizontalAlignment="Left" Height="36" Margin="432,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" FontSize="18"/>
+		<TextBox x:Name="txtAmount" Text="{Binding amount}" HorizontalAlignment="Left" Height="36" Margin="432,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" FontSize="18"/>
 		<TextBlock HorizontalAlignment="Center" TextAlignment="Center" Height="57" Margin="0,10,0,0" TextWrapping="Wrap" Text="Transfer " VerticalAlignment="Top" Width="780" FontSize="36" FontWeight="Bold" FontFamily="Verdana" />
 	</Grid>
 </Window>
@@ -1023,7 +1043,7 @@ namespace BankSystemWpfApp
 				Email = "",
 				Phone = "",
 				Address = "",
-				IsActive = false,
+				IsActive = true,
 				InterestPercentage = "0",
 				TransactionCount = 0,
 				LastTransactionDate = DateTime.Now,
@@ -1759,6 +1779,7 @@ namespace BankSystemWpfApp
 		/// Calculates the interest and updates the balance for all accounts.
 		/// </summary>
 		void CalculateInterestAndUpdateBalance();
+		void Transfer(int fromAcNo, int toAcNo, int Amount);
 
 		/// <summary>
 		/// Retrieves all accounts.
@@ -2116,7 +2137,7 @@ namespace BankSystemWpfApp
 
 TransferViewModel.cs
 --------------------
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -2127,9 +2148,9 @@ namespace BankSystemWpfApp
 {
 	public class TransferViewModel
 	{
-		public string senderAccNo{get;set;}
-		public string receiverAccNo {get;set;}
-		public string amount {get;set;}
+		public int senderAccNo{get;set;}
+		public int receiverAccNo {get;set;}
+		public int amount {get;set;}
 		private Dictionary<string, decimal> accounts = new Dictionary<string, decimal>();
 
 		/// <summary>
@@ -2147,10 +2168,13 @@ namespace BankSystemWpfApp
 			TransferCommand = new RelayCommand(Transfer);
 		}
 
-		//Input Validation
+		private IAccountRepo _repo = AccountMemoryRepo.Instance;
+
+		//Transfer
+
 		public void Transfer()
 		{
-			var result = MessageBox.Show(messageBoxText: "Are you sure to Withdraw?",
+			var result = MessageBox.Show(messageBoxText: "Are you sure to Transfer?",
 					caption: "Confirm",
 					button: MessageBoxButton.YesNo,
 					icon: MessageBoxImage.Question);
@@ -2158,83 +2182,41 @@ namespace BankSystemWpfApp
 			{
 				return;
 			}
-
-			
-			// Perform transfer
 			try
 			{
-				// Check if sender and receiver accounts are the same
-				if (senderAccNo == receiverAccNo)
+				Logger.log.Info($"Amount: {amount}");
+				if (senderAccNo <= 0 || receiverAccNo <= 0)
 				{
-					MessageBox.Show(messageBoxText: "Sender and receiver accounts cannot be the same",
+					throw new ArgumentException("Invalid account number");
+				}
+
+				if (amount <= 0)
+				{
+					throw new ArgumentException("Invalid amount");
+				}
+
+				_repo.Transfer(senderAccNo, receiverAccNo, amount);
+				MessageBox.Show(messageBoxText: $"Transferred Successfully from account {senderAccNo} to {receiverAccNo}",
 						caption: "Alert",
 						button: MessageBoxButton.OK,
 						icon: MessageBoxImage.Information);
-					return;
-				}
-
-				// Check if transfer amount is zero
-				if (decimal.TryParse(amount, out decimal transferAmount) && transferAmount == 0)
-				{
-					MessageBox.Show(messageBoxText: "Transfer amount cannot be zero",
-						caption: "Alert",
-						button: MessageBoxButton.OK,
-						icon: MessageBoxImage.Information);
-					return;
-				}
-
-				// Validate sender and recipient accounts
-				if (!accounts.ContainsKey(senderAccNo))
-				{
-					MessageBox.Show(messageBoxText: "Sender account not found",
-						caption: "Alert",
-						button: MessageBoxButton.OK,
-						icon: MessageBoxImage.Information);
-					return;
-				}
-				if (!accounts.ContainsKey(receiverAccNo))
-				{
-					MessageBox.Show(messageBoxText: "Receiver account not found",
-						caption: "Alert",
-						button: MessageBoxButton.OK,
-						icon: MessageBoxImage.Information);
-					return;
-				}
-
-				// Ensure sender has enough balance
-				if (accounts[senderAccNo] < transferAmount)
-				{
-					MessageBox.Show(messageBoxText: "Insufficient fund in Sender's account",
-						caption: "Alert",
-						button: MessageBoxButton.OK,
-						icon: MessageBoxImage.Information);
-					return;
-				}
-
-				//transfer logic
-				accounts[senderAccNo] -= transferAmount; // deduct from sender
-				accounts[receiverAccNo] += transferAmount; // add to receiver
-
-				// Log the transfer event
-				Logger.log.Info($"Transferred {amount} rupees Successfully from account {senderAccNo} to account {receiverAccNo}");
-
-				// Update the UI
-				MessageBox.Show(messageBoxText: $"Transferred {amount} rupees Successfully from account {senderAccNo} to account {receiverAccNo}",
-					caption: "Alert",
-					button: MessageBoxButton.OK,
-					icon: MessageBoxImage.Information);
-
-				// Reset fields
-				this.senderAccNo = "0";
-				this.receiverAccNo = "0";
-				this.amount = "0";
+				Logger.log.Info($"Transferred {amount} rupees Successfully from account {senderAccNo} to {receiverAccNo}");
 			}
 			catch (AccountException ae)
 			{
 				MessageBox.Show(messageBoxText: $"{ae.Message}",
-					caption: "Warning",
-					button: MessageBoxButton.OK,
-					icon: MessageBoxImage.Warning);
+				   caption: "Warning",
+				   button: MessageBoxButton.OK,
+				   icon: MessageBoxImage.Warning);
+
+				Logger.log.Error(ae.Message);
+			}
+			catch (ArgumentException ae)
+			{
+				MessageBox.Show(messageBoxText: $"{ae.Message}",
+				   caption: "Warning",
+				   button: MessageBoxButton.OK,
+				   icon: MessageBoxImage.Warning);
 
 				Logger.log.Error(ae.Message);
 			}
@@ -2243,9 +2225,105 @@ namespace BankSystemWpfApp
 				Logger.log.Error(ex.Message);
 			}
 		}
+		//public void Transfer()
+		//{
+		//	var result = MessageBox.Show(messageBoxText: "Are you sure to Withdraw?",
+		//			caption: "Confirm",
+		//			button: MessageBoxButton.YesNo,
+		//			icon: MessageBoxImage.Question);
+		//	if (result != MessageBoxResult.Yes)
+		//	{
+		//		return;
+		//	}
+
+
+		//	// Perform transfer
+		//	try
+		//	{
+		//		// Check if sender and receiver accounts are the same
+		//		if (senderAccNo == receiverAccNo)
+		//		{
+		//			MessageBox.Show(messageBoxText: "Sender and receiver accounts cannot be the same",
+		//				caption: "Alert",
+		//				button: MessageBoxButton.OK,
+		//				icon: MessageBoxImage.Information);
+		//			return;
+		//		}
+
+		//		// Check if transfer amount is zero
+		//		if (decimal.TryParse(amount, out decimal transferAmount) && transferAmount == 0)
+		//		{
+		//			MessageBox.Show(messageBoxText: "Transfer amount cannot be zero",
+		//				caption: "Alert",
+		//				button: MessageBoxButton.OK,
+		//				icon: MessageBoxImage.Information);
+		//			return;
+		//		}
+
+		//		// Validate sender and recipient accounts
+		//		if (!accounts.ContainsKey(senderAccNo))
+		//		{
+		//			MessageBox.Show(messageBoxText: "Sender account not found",
+		//				caption: "Alert",
+		//				button: MessageBoxButton.OK,
+		//				icon: MessageBoxImage.Information);
+		//			return;
+		//		}
+		//		if (!accounts.ContainsKey(receiverAccNo))
+		//		{
+		//			MessageBox.Show(messageBoxText: "Receiver account not found",
+		//				caption: "Alert",
+		//				button: MessageBoxButton.OK,
+		//				icon: MessageBoxImage.Information);
+		//			return;
+		//		}
+
+		//		// Ensure sender has enough balance
+		//		if (accounts[senderAccNo] < transferAmount)
+		//		{
+		//			MessageBox.Show(messageBoxText: "Insufficient fund in Sender's account",
+		//				caption: "Alert",
+		//				button: MessageBoxButton.OK,
+		//				icon: MessageBoxImage.Information);
+		//			return;
+		//		}
+
+		//		//transfer logic
+		//		accounts[senderAccNo] -= transferAmount; // deduct from sender
+		//		accounts[receiverAccNo] += transferAmount; // add to receiver
+
+		//		// Log the transfer event
+		//		Logger.log.Info($"Transferred {amount} rupees Successfully from account {senderAccNo} to account {receiverAccNo}");
+
+		//		// Update the UI
+		//		MessageBox.Show(messageBoxText: $"Transferred {amount} rupees Successfully from account {senderAccNo} to account {receiverAccNo}",
+		//			caption: "Alert",
+		//			button: MessageBoxButton.OK,
+		//			icon: MessageBoxImage.Information);
+
+		//		// Reset fields
+		//		this.senderAccNo = "0";
+		//		this.receiverAccNo = "0";
+		//		this.amount = "0";
+		//	}
+		//	catch (AccountException ae)
+		//	{
+		//		MessageBox.Show(messageBoxText: $"{ae.Message}",
+		//			caption: "Warning",
+		//			button: MessageBoxButton.OK,
+		//			icon: MessageBoxImage.Warning);
+
+		//		Logger.log.Error(ae.Message);
+		//	}
+		//	catch (Exception ex)
+		//	{
+		//		Logger.log.Error(ex.Message);
+		//	}
+		//}
 
 	}
 }
+
 
 ViewModelBase.cs
 ----------------
